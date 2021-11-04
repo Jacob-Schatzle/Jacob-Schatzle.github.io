@@ -8,14 +8,37 @@ body
     display: flex;
     padding: 20px;
     margin: 20px;
-    background-color: yellow;
+    background-color: #B0C4DE;
+    font-size: 200%;
+    border-radius: 10px;
 }
 
 .assignment img {
     width: 1000px;
-    padding: 20px;
+    margin: 20px;
+    border: 10px solid black;
+}
+
+.assignment img:hover {
+    border: 10px dashed #FFD700;
 }
 
 h1 {
-    color: rgb(211, 29, 62);
+    color: #FF8C00;
+    font-size: 500%;
+    text-align: center;
+}
+
+h1:hover {
+    text-align: center;
+    color: #FF00FF;
+}
+
+a {
+    text-decoration: none;
+    color: #DC143C;
+    font-size: 200%;
+}
+a:hover {
+    color: #FF00FF;
 }
